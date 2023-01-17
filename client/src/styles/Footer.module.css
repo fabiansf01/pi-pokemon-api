@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-self: flex-end;
+}
+.footer .contactInfo {
+    display: flex;
+    margin: 0 4rem 0 12rem ;
+    align-items: center;
+    
+}
+.footer a {
+  margin: 5px 10px;
+}
+.icons {
+  color: black;
+}
+.footer p {
+  font-family: 'Creepster', cursive;
+  font-style: italic;
+  
+  text-decoration: none;
+  color: red;
+  font-size: 26px;
+  letter-spacing: 1.3px;
+  text-align: left;
+}
+

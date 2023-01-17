@@ -1,0 +1,33 @@
+.container {
+  background-image: url("../assets/pageNotFound.jpeg");
+  background-size: 800px 800px;
+  background-position: center ;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 120vw;
+  height: 120vh;
+}
+
+.pokemonsNotFound {
+  background-image: url("../assets/pokezombie-removebg.png");
+  background-size: 160px 160px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20vw;
+  height: 50vh;
+  border-radius: 9px;
+  border: solid red 5px;
+
+}
+
+.p_pokemonNotFound {
+  margin: 10px 0 30px 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: 25px;
+  text-transform: none;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+}

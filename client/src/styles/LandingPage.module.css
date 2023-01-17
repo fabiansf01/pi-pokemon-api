@@ -1,0 +1,38 @@
+.background {
+  background-image: url("../assets/nightmaresoup8-Pikachu-Pokemon.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.homeBtn {
+  background-image: url("../assets/hacha_1_tr.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 125px;
+  height:125px;
+  position: absolute;
+  left: 600px;
+  top: 8px;
+  transition: transform 0.7s ease-in-out; /* Spin animation */
+}
+
+.home_span {
+  font-family: 'Creepster', cursive;
+  font-style: italic;
+  font-weight: bold;
+  position: absolute;
+  left: 455px;
+  top: 25px;
+  text-decoration: none;
+  color: #eb0f0f;
+  font-size: 43px;
+  letter-spacing: 2px;
+}
+
+.homeBtn:hover {
+  transform: rotate(360deg) scale(3);
+}

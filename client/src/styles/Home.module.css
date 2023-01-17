@@ -1,0 +1,33 @@
+.homeContainer {
+  background-image: url("../assets/horror_landscape.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  
+}
+
+.spinnerStyle {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 24vh;
+}
+
+.spinnerContainer {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.refresh_span {
+  font-family: "Arial", sans-serif;
+  text-decoration: none;
+  color: #0e0e0e;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}

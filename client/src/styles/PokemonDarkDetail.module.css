@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+   
+}
+
+
+.contagen{
+  
+    background-image: url("../assets/horror_landscape_3.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    /*max-width: 100%;*/
+    width: 100vw;
+    height: 100vh;
+}
+
+xbody {
+	/*horror_landscape_3.png*/
+    
+    background-image: url("../assets/horror_landscape_3.png");
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+ybody{
+
+   
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+  
+}
+
+
+.contenedor {
+   
+    width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	display: flex;
+	gap: 20px;
+	
+}
+
+.titulo {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+	padding: 20px 0;
+}
+
+.contenedorsecundario {
+	margin-top: 70px;
+    width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.card {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../assets/sun_blood.jpeg");
+	border-radius: 10px;
+	border: solid 4px #bb2929;
+    min-height: 100px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	/*width: calc(33.33% - 20px);*/
+    width: calc(50% - 20px);
+
+	
+}
+
+
+
+.p_id {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 95%;
+    padding-top: 10px;
+  }
+
+
+
+.card .textos {
+	height: 100%;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+.imager {
+    background-image: url("../assets/scary4.png");
+    margin-top: 70px;
+    border: solid 7px #bb2929;
+    border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+	width: 40%;
+
+}
+
+.imager ul {
+	list-style: none;
+}
+
+.imager ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+
+
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+
+}
